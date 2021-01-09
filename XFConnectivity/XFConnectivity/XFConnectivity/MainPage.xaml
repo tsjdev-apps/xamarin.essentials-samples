@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFConnectivity.MainPage"
+             Title="Connectivity"
+             Padding="16">
+
+    <StackLayout>
+        <Label Text="Network Access"
+               FontAttributes="Bold" />
+        <Label x:Name="NetworkAccessLabel" />
+
+        <BoxView HeightRequest="1"
+                 Color="LightGray"
+                 Margin="0,16" />
+
+        <Label Text="Connection Profiles"
+               FontAttributes="Bold" />
+        <Label x:Name="ConnectionProfilesLabel" />
+    </StackLayout>
+
+</ContentPage>
