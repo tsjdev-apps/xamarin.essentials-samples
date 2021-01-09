@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFBattery.MainPage"
+             Title="Battery"
+             Padding="16">
+
+    <StackLayout>
+        <Label Text="Battery Level"
+               FontAttributes="Bold" />
+        <Label x:Name="BatteryLevelLabel" />
+
+        <BoxView HeightRequest="1"
+                 Color="LightGray"
+                 Margin="0,16" />
+
+        <Label Text="Battery State"
+               FontAttributes="Bold" />
+        <Label x:Name="BatteryStateLabel" />
+
+        <BoxView HeightRequest="1"
+                 Color="LightGray"
+                 Margin="0,16" />
+
+        <Label Text="Battery Power Source"
+               FontAttributes="Bold" />
+        <Label x:Name="BatteryPowerSourceLabel" />
+
+        <BoxView HeightRequest="1"
+                 Color="LightGray"
+                 Margin="0,16" />
+
+        <Label Text="Energy Saver State"
+               FontAttributes="Bold" />
+        <Label x:Name="EnergySaverStateLabel" />
+
+
+    </StackLayout>
+
+</ContentPage>
