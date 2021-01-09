@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:essentials="clr-namespace:Xamarin.Essentials;assembly=Xamarin.Essentials"
+             mc:Ignorable="d"
+             x:Class="XFAppInfo.AboutPage"
+             Title="About"
+             Visual="Material"
+             Padding="16">
+
+    <ContentPage.Resources>
+        <Style x:Key="TitleLabelStyle"
+               TargetType="Label">
+            <Setter Property="FontAttributes"
+                    Value="Bold" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid RowSpacing="18">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Name"
+                   Style="{StaticResource TitleLabelStyle}"
+                   Grid.Row="0"
+                   Grid.Column="0" />
+            <Label Text="{Static essentials:AppInfo.Name}"
+                   Grid.Row="0"
+                   Grid.Column="1" />
+
+            <Label Text="Package Name"
+                   Style="{StaticResource TitleLabelStyle}"
+                   Grid.Row="1"
+                   Grid.Column="0" />
+            <Label Text="{Static essentials:AppInfo.PackageName}"
+                   Grid.Row="1"
+                   Grid.Column="1" />
+
+            <Label Text="Verion"
+                   Style="{StaticResource TitleLabelStyle}"
+                   Grid.Row="2"
+                   Grid.Column="0" />
+            <Label Text="{Static essentials:AppInfo.VersionString}"
+                   Grid.Row="2"
+                   Grid.Column="1" />
+
+            <Label Text="Build"
+                   Style="{StaticResource TitleLabelStyle}"
+                   Grid.Row="3"
+                   Grid.Column="0" />
+            <Label Text="{Static essentials:AppInfo.BuildString}"
+                   Grid.Row="3"
+                   Grid.Column="1" />
+
+            <Label Text="Theme"
+                   Style="{StaticResource TitleLabelStyle}"
+                   Grid.Row="4"
+                   Grid.Column="0" />
+            <Label Text="{Binding ., Source={Static essentials:AppInfo.RequestedTheme}}"
+                   Grid.Row="4"
+                   Grid.Column="1" />
+
+            <Button Text="Open Settings"
+                    Clicked="OpenSettingsButtonOnClicked"
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2" />
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
