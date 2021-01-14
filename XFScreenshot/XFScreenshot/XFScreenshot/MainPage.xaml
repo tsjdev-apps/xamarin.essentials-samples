@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFScreenshot.MainPage"
+             Title="Screenshot"
+             Padding="16"
+             Visual="Material">
+
+    <StackLayout Spacing="16">
+        <Grid ColumnDefinitions="*,*,*"
+              HeightRequest="25">
+            <BoxView Color="Red"
+                     Grid.Column="0" />
+            <BoxView Color="Yellow"
+                     Grid.Column="1" />
+            <BoxView Color="Green"
+                     Grid.Column="2" />
+        </Grid>
+
+        <Button Text="Take Screenshot"
+                Clicked="ScreenshotButtonOnClicked" />
+
+        <Image x:Name="ScreenshotImage"
+               Aspect="AspectFit"
+               HeightRequest="500"
+               WidthRequest="500" />
+    </StackLayout>
+
+</ContentPage>
