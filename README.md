@@ -74,3 +74,12 @@ Mit der API *Mail* habt ihr die Möglichkeit den Mail-Client auf dem Gerät zu �
 
 - Datum: 01.01.2021
 - Link: [https://youtu.be/pQzCwLK7WdA](https://youtu.be/pQzCwLK7WdA)
+
+---
+
+## Screenshot
+
+Mit der API *Screenshot* habt ihr die Möglichkeit einen Screenshot vom aktuellen Bildschirm der App anzufertigen.
+
+- Datum: 15.01.2021
+- Link: [https://youtu.be/fXYj78b01_Q](https://youtu.be/fXYj78b01_Q)
