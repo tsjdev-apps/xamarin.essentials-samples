@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFAccelerometer.MainPage"
+             Title="Accelerometer"
+             Padding="16"
+             Visual="Material">
+
+    <StackLayout>
+        <Button x:Name="StartButton"
+                Text="Start"
+                Clicked="StartButtonOnClicked" />
+
+        <Button x:Name="StopButton"
+                Text="Stop"
+                IsEnabled="False"
+                Clicked="StopButtonOnClicked" />
+
+        <Label x:Name="LabelX" />
+        <Label x:Name="LabelY" />
+        <Label x:Name="LabelZ" />
+    </StackLayout>
+
+</ContentPage>
