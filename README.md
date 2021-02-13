@@ -83,3 +83,12 @@ Mit der API *Screenshot* habt ihr die Möglichkeit einen Screenshot vom aktuelle
 
 - Datum: 15.01.2021
 - Link: [https://youtu.be/fXYj78b01_Q](https://youtu.be/fXYj78b01_Q)
+
+---
+
+## Accelerometer
+
+Mit der API *Accelerometer* habt ihr die Möglichkeit auf die Bewegungsdaten des Geräts zuzugreifen.
+
+- Datum: 29.01.2021
+- Link: [https://youtu.be/EhnRYhOwqWw](https://youtu.be/EhnRYhOwqWw)
