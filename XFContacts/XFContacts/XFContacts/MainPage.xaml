@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFContacts.MainPage"
+             Title="Contacts"
+             Visual="Material"
+             Padding="16">
+
+    <StackLayout>
+        <Button Text="Get Contact"
+                Clicked="GetContactButtonOnClicked" />
+
+        <Label x:Name="IdLabel" />
+        <Label x:Name="GivenNameLabel" />
+        <Label x:Name="MiddleNameLabel" />
+        <Label x:Name="FamilyNameLabel" />
+        <Label x:Name="DisplayNameLabel" />
+        <Label x:Name="PhonesLabel" />
+        <Label x:Name="EmailsLabel" />
+    </StackLayout>
+
+</ContentPage>
