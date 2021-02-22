@@ -92,3 +92,12 @@ Mit der API *Accelerometer* habt ihr die Möglichkeit auf die Bewegungsdaten des
 
 - Datum: 29.01.2021
 - Link: [https://youtu.be/EhnRYhOwqWw](https://youtu.be/EhnRYhOwqWw)
+
+---
+
+## Contacts
+
+Mit der API *Contacts* habt ihr die Möglichkeit Kontakte aus dem Adressbuch des Nutzers abzurufen, indem der Nutzer diesen auswählt.
+
+- Datum: 19.02.2021
+- Link: [https://youtu.be/CU6A-E5rdn0](https://youtu.be/CU6A-E5rdn0)
