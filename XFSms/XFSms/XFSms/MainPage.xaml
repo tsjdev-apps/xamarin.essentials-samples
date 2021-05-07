@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFSms.MainPage"
+             Title="SMS"
+             Visual="Material"
+             Padding="16">
+
+    <StackLayout>
+        <Entry x:Name="RecipientEntry"
+               Placeholder="Recipient"
+               Text="12456789"
+               Keyboard="Telephone" />
+        <Entry x:Name="MessageBodyEntry"
+               Placeholder="Message Body..."
+               Keyboard="Text" />
+        <Button Text="Send SMS"
+                Clicked="SMSButtonOnClicked" />
+    </StackLayout>
+
+</ContentPage>
