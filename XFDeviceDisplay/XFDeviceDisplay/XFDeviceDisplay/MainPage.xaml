@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFDeviceDisplay.MainPage"
+             Title="Device Display Information"
+             Visual="Material"
+             Padding="16">
+
+    <ContentPage.Resources>
+        <Style x:Key="TitleLabelStyle"
+               TargetType="Label">
+            <Setter Property="FontAttributes"
+                    Value="Bold" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Orientation"
+                       Style="{StaticResource TitleLabelStyle}" />
+                <Label x:Name="OrientationLabel" />
+                <Label Text="Rotation"
+                       Style="{StaticResource TitleLabelStyle}" />
+                <Label x:Name="RotationLabel" />
+                <Label Text="Width"
+                       Style="{StaticResource TitleLabelStyle}" />
+                <Label x:Name="WidthLabel" />
+                <Label Text="Height"
+                       Style="{StaticResource TitleLabelStyle}" />
+                <Label x:Name="HeightLabel" />
+                <Label Text="Screen Density"
+                       Style="{StaticResource TitleLabelStyle}" />
+                <Label x:Name="DensityLabel" />
+                <Label Text="Refresh Rate"
+                       Style="{StaticResource TitleLabelStyle}" />
+                <Label x:Name="RefreshRateLabel" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
