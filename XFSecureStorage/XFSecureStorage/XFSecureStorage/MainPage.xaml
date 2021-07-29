@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFSecureStorage.MainPage"
+             Title="Secure Storage"
+             Padding="16"
+             Visual="Material">
+
+    <StackLayout>
+        <Entry x:Name="SecureStorageValueEntry"
+               Placeholder="Enter value..." />
+        <Button Text="Save Value"
+                Clicked="SaveValueButtonOnClicked" />
+    </StackLayout>
+
+</ContentPage>
